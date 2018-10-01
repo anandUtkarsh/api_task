@@ -27,6 +27,7 @@ browse through following routes,
 
 # / route - Login
 -   A mock authentication service that accept a username/password.
+-   For now one can login through USERNAME as Admin and PASSWORD as 12345
 
 # /thumb route 
 -	Request contains a public image URL.
