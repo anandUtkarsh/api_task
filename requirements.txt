@@ -1,0 +1,4 @@
+Flask==0.11.1
+pillow
+Flask-SQLAlchemy
+pyjwt==1.4.2
