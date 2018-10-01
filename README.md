@@ -1,6 +1,7 @@
 # api_task
 
-# JSON Web Tokens (or JWTs) provide a means of transmitting information from the client to the server in a stateless, secure way.
+# JSON Web Tokens (or JWTs) 
+It provide a means of transmitting information from the client to the server in a stateless, secure way.
 
 The auth workflow works as follows:
 
@@ -25,11 +26,8 @@ browse on "http://127.0.0.1:5000/"
 browse through following routes,
 
 # / route - Login
-# /thumb route - Download and covert the image to thumbnail(50*50)
+-   A mock authentication service that accept a username/password.
 
-
-
-The given url is requested and image is dwonloaded from the same and saved in the working Directory.
-
-
-The images from the working directory are searched and converted into thumbnails and again saved into the same directory.
+# /thumb route 
+-	Request contains a public image URL.
+-	API downloads the image, resize to 50x50 pixels, and save the resulting thumbnail in the working directory
